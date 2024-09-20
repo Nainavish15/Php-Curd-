@@ -1,0 +1,17 @@
+/crud-app
+├── /config        # Database connection file
+│   └── db.php
+├── /includes      # Header, Footer, and common files
+│   └── header.php
+│   └── footer.php
+├── /public        # HTML and main pages
+│   └── index.php
+│   └── add.php
+│   └── edit.php
+│   └── delete.php
+├── /process       # Backend processing files (Insert, Update, Delete)
+│   └── process_add.php
+│   └── process_edit.php
+│   └── process_delete.php
+├── /uploads       # Uploaded image files
+└── /assets        # Store Bootstrap and CSS/JS files
